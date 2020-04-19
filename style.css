@@ -1,0 +1,284 @@
+@font-face {
+	font-family: "BatmanForeverAlternate";
+	src: url("batmfa.ttf") format("regular");
+}
+
+#wrapper {
+	padding: 10px;
+	border-radius: 5px;
+	width: 900px;
+	margin: auto;
+	border-radius: 5px;
+	
+}
+
+
+h1 {
+	margin-top: 10px;
+	font-family: "BatmanForeverAlternate"; 
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 50px;
+	border-radius: 10px;
+	padding: 3px;
+	text-decoration: none;
+	background-image: linear-gradient(#bb413b, #831608);
+	border-radius: 5px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#covid19:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(10px);
+}
+
+@keyframes covid {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+
+#covid19 {
+	margin-bottom: 10px;
+	width: 80px;
+	float: right;
+	animation: covid 10s infinite linear;
+}
+
+/* MENU */
+
+#menu {
+	width: 100%;
+}
+
+#menu span {
+	display: inline-block;
+	padding: 4px 15px;
+	cursor: pointer;
+}
+
+#menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	float: left;
+	margin-right: 3px;
+}
+
+#menu a {
+	float: left;
+	color: white;
+	margin: 0 5px;
+	padding: 3px;
+	text-decoration: none;
+	border: 1px solid #831608;
+	font: bold 14px Arial, Helvetica;
+	background-color: #831608;
+	background-image: linear-gradient(#bb413b, #831608);
+	border-radius: 5px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#menu a:hover {
+	background-color: #bb413b;
+	background-image: linear-gradient(#831608, #bb413b);
+}
+
+#menu a:active {
+	background: #bb413b;
+	position: relative;
+	top: 2px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+}
+
+#menu span {
+	font-family: "BatmanForeverAlternate";
+	display: inline-block;
+	padding: 4px 15px;
+	cursor: pointer;
+}
+
+
+/* HOME */
+
+.news-text img{
+	width: 270px;
+	height: 250px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.imgNews{
+	max-width:100%;
+	height:auto;
+}
+
+.news {
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	padding: 5px;
+	width: 900px;
+	overflow: auto;
+}
+
+.textAudio{
+	display: flex;
+	margin-top: 10px;
+}
+
+audio{
+	padding-left: 20px;
+}
+
+.youtube{
+	box-shadow: 10px 10px 5px #888888;
+	height: 250px;
+}
+
+a{
+	text-decoration: unset;
+}
+
+h3 {
+	margin-top: 10px;
+	text-decoration: unset;
+	font-family: "BatmanForeverAlternate"; 
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 3px;
+	text-decoration: none;
+	background-image: linear-gradient(#bb413b, #831608);
+	border-radius: 5px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+/* SOBRE */
+
+#sobre{
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+#imgBio {
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+}
+
+#bio{
+	margin-top: 70px;
+	width: 600px;
+	color: black;
+	padding: 5px;
+	margin: auto;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+}
+
+#bio p{
+	font-family: Chalkduster, fantasy;
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: justify;
+	line-height: 1.0;
+}
+
+.icon{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.imgIcon{
+	width: 50px;
+	height: 50px;
+}
+
+.imgIcon:hover{
+	transform: scale(1.1);
+}
+
+/** CONTATO **/
+
+.googleForm{
+	margin-top: 100px;
+	margin-left: 120px;
+}
+
+/** SAIBA MAIS **/
+
+#saibaMais{
+	margin-top: 130px;
+	text-align: center;
+	font-family: Luminari, fantasy;
+}
+
+#saiba{
+	margin-bottom: 20px;
+}
+
+#saibaMaisList{
+	margin-top: 70px;
+	width: 800px;
+	color: black;
+	padding: 10px;
+	margin: auto;
+	box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.8);
+	list-style: none;
+}
+
+#saibaMaisList a{
+	font-family: Chalkduster, fantasy;
+	text-decoration: none;
+    color: #222222;
+    font-size: 15px;
+    line-height: 2;
+	transition: color 150ms;
+}
+
+#saibaMaisList a:hover {
+    color: red;
+}
+
+/** FOOTER **/
+
+
+#footer{
+	text-align: center;
+	height: 60px;
+	border-radius: 10px;
+	margin: auto;
+	text-decoration: none;
+	background-image: linear-gradient(#bb413b, #831608);
+	border-radius: 5px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	width: 900px;
+	display: flex;
+    justify-content: center;
+}
+
+#copyright {
+	padding: 8px;
+    font-size: 15px;
+    font-weight: 300;
+	color: white;
+	height: 50px;
+	
+}
